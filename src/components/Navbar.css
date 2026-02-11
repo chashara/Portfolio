@@ -4,8 +4,10 @@
   padding: 1rem;
   position: sticky;
   top: 0;
-  width:100%;
-border-radius: 30px;
+  width: 80vw;
+  margin-left: -50px;
+
+
 }
 
 .navbar ul {
