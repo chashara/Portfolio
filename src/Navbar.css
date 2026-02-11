@@ -1,0 +1,23 @@
+.navbar {
+  background: #1f2937;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.navbar li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navbar li:hover {
+  color: #3b82f6;
+}
