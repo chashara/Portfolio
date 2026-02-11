@@ -1,0 +1,84 @@
+/* AboutMe.css */
+
+.about-me {
+  background-color: hsl(208, 53%, 74%); /* soft background */
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111827; /* dark text */
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 4rem 1rem;
+}
+
+.about-container {
+  background-color: hsl(208, 53%, 74%);
+  min-height: 100vh;
+  width: 100%;
+  padding: 4rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111827;
+  margin: 0 auto;
+}
+
+.about-me h1 {
+  margin-bottom: 1000px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.about-me h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #3b82f6;
+}
+
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-stack span {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: default;
+}
+
+.tech-stack span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .about-me h1 {
+    font-size: 2rem;
+  }
+
+  .about-me h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-me p {
+    font-size: 1rem;
+  }
+}
