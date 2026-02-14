@@ -1,10 +1,10 @@
 import React from "react";
+import "./Projects.css";
 
 export default function Projects() {
   return (
     <section className="projects">
-      <h1>My Projects</h1>
-      <div className="project-card">
+       <div className="project-container">
         <h2>Data Visualizer</h2>
         <p>
           A React + D3.js frontend app that allows users to upload CSV or JSON

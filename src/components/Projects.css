@@ -1,0 +1,16 @@
+.project-container {
+  display: flex;
+  flex-direction: row; /* or column for mobile-friendly layout */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+  margin-right: 700px;
+  margin-left: -50px;
+  background: rgb(85, 127, 193);
+}
+
+.projects{
+    padding-top: 50px;
+
+}

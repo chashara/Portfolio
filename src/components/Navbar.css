@@ -16,9 +16,14 @@
   gap: 2rem;
   justify-content: center;
   font-size:30px;
+  font-weight: bold;
+
+
 }
 
 .navbar li {
+  padding-left: 200px;
+  padding-right: 100px;
   cursor: pointer;
   transition: color 0.2s;
 }
