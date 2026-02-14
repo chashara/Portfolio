@@ -1,11 +1,12 @@
 import React from "react";
 import "./AboutMe.css";
+import profile from "../assets/profile.jpg"
 
 const AboutMe = () => {
   return (
     <div className="about-container">
       <div className="profile-pic">
-        <img src="/profile.jpg" alt="Chasi" />
+        <img src={profile} alt="Chasi" />
       </div>
 
       <div className="about-content">
