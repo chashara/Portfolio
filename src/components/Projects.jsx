@@ -5,8 +5,8 @@ export default function Projects() {
   return (
     <section className="projects">
        <div className="project-container">
-        <h2>Data Visualizer</h2>
-        <p>
+        <h2 className="fade-in">Data Visualizer</h2>
+        <p className="fade-in">
           A React + D3.js frontend app that allows users to upload CSV or JSON
           files and visualize the data. Features include bar, line, and scatter
           charts.
@@ -22,5 +22,8 @@ export default function Projects() {
         </p>
       </div>
     </section>
+
+
   );
+
 }
